@@ -2,14 +2,14 @@
 	Reset Styles (from meyerweb.com)
 ------------------------------------------------------------ */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+.slickmap html, .slickmap  body, .slickmap  div, .slickmap  span, .slickmap  applet, .slickmap  object, .slickmap  iframe, .slickmap 
+h1, .slickmap  h2, .slickmap  h3, .slickmap  h4, .slickmap  h5, .slickmap  h6, .slickmap  p, .slickmap  blockquote, .slickmap  pre, .slickmap 
+a, .slickmap  abbr, .slickmap  acronym, .slickmap  address, .slickmap  big, .slickmap  cite, .slickmap  code, .slickmap 
+del, .slickmap  dfn, .slickmap  em, .slickmap  font, .slickmap  img, .slickmap  ins, .slickmap  kbd, .slickmap  q, .slickmap  s, .slickmap  samp, .slickmap 
+small, .slickmap  strike, .slickmap  strong, .slickmap  sub, .slickmap  sup, .slickmap  tt, .slickmap  var, .slickmap 
+dl, .slickmap  dt, .slickmap  dd, .slickmap  ol, .slickmap  ul, .slickmap  li, .slickmap 
+fieldset, .slickmap  form, .slickmap  label, .slickmap  legend, .slickmap 
+table, .slickmap  caption, .slickmap  tbody, .slickmap  tfoot, .slickmap  thead, .slickmap  tr, .slickmap  th, .slickmap  td {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -51,35 +51,22 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	General Styles
 ------------------------------------------------------------ */
 
-body {
-	background: white;
-	color: black;
-	padding: 40px;
-	font-family: Gotham, Helvetica, Arial, sans-serif;
-	font-size: 12px;
-	line-height: 1;
-}
-.sitemap {
-	margin: 0 0 40px 0;
-	float: left;
-	width: 100%;
-}
-h1 {
+.slickmap h1 {
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 20px;
 	margin: 0 0 5px 0;
 }
-h2 {
+.slickmap h2 {
 	font-family: "Lucida Grande", Verdana, sans-serif;
 	font-size: 10px;
 	color: #777777;
 	margin: 0 0 20px 0;
 }
-a {
+.slickmap a {
 	text-decoration: none;
 }
-ol, ul {
+.slickmap ol, ul {
 	list-style: none;
 }
 
@@ -207,7 +194,7 @@ a:visited:before {
 	background: url('images/L3-li-top.png') left center no-repeat;
 }
 .slickmap li li li:last-child {
-	background: url('images/L3-bottom.png') left center no-repeat;
+	background: url('images/L3-bottom.png') 0px -60px no-repeat;
 }
 .slickmap li li li a:link:before,
 .slickmap li li li a:visited:before {
@@ -249,10 +236,7 @@ a:visited:before {
 	background: url('images/L3-li-top.png') left center no-repeat;
 }
 .slickmap li li li li:last-child {
-	background: url('images/L3-bottom.png') left center no-repeat;
-}
-.slickmap li li li li.hasMore:last-child {
-	background: url('images/L3-bottom-with-children.png') left top no-repeat;
+	background: url('images/L3-bottom.png') 0px -50px no-repeat;
 }
 .slickmap li li li li a:link:before,
 .slickmap li li li li a:visited:before {
@@ -280,17 +264,10 @@ a:visited:before {
 	background-color: #e7dfef;
 }
 .slickmap li li li li li:first-child {
-	padding-top: 30px;
+	padding-top: 15px;
 }
 .slickmap li li li li li:last-child {
-	background: url('images/L3-bottom.png') left center no-repeat;
-}
-
-.slickmap li li li li li.hasMore {
-
-
-	background: url('images/L3-center-hasMore.png') left top no-repeat;
-	padding: 5px 0;
+	background: url('images/L3-bottom.png') 0px -50px no-repeat;
 }
 
 .slickmap li li li li li a:link:before,
