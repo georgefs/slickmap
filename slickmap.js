@@ -64,7 +64,7 @@ slickmap.parse = function (text, level=1){
 }
 slickmap.render = function (source){
     var level1_col =source['childrens'].length;
-    var html = '<ul id="primaryNav" class="col' + level1_col +'">';
+    var html = '<ul class="slickmap" class="col' + level1_col +'">';
     html += slickmap.render_tree(source)
     html += '</ul>';
     return html;
@@ -73,7 +73,7 @@ slickmap.render = function (source){
 slickmap.render_tree = function(source, st=true){
     var html = "";
     if(st){
-        html += '<li id="home"><a href="'+ source['url'] +'">' + source['content'] + '</a></li>';
+        html += '<li class="root"><a href="'+ source['url'] +'">' + source['content'] + '</a></li>';
         st=false;
     }else{
         if(source['childrens'].length){

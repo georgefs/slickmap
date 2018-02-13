@@ -22,30 +22,30 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 /* ------------------------------------------------------------
-	NUMBER OF COLUMNS: Adjust #primaryNav li to set the number
+	NUMBER OF COLUMNS: Adjust .slickmap li to set the number
 	of columns required in your site map. The default is
 	4 columns (25%). 5 columns would be 20%, 6 columns would
 	be 16.6%, etc.
 ------------------------------------------------------------ */
 
-#primaryNav li {
+.slickmap li {
 	width:25%;
 }
 
-#primaryNav li ul li {
+.slickmap li ul li {
 	width:100% !important;
 }
 
-#primaryNav.col1 li { width:99.9%; }
-#primaryNav.col2 li { width:50.0%; }
-#primaryNav.col3 li { width:33.3%; }
-#primaryNav.col4 li { width:25.0%; }
-#primaryNav.col5 li { width:20.0%; }
-#primaryNav.col6 li { width:16.6%; }
-#primaryNav.col7 li { width:14.2%; }
-#primaryNav.col8 li { width:12.5%; }
-#primaryNav.col9 li { width:11.1%; }
-#primaryNav.col10 li { width:10.0%; }
+.slickmap.col1 li { width:99.9%; }
+.slickmap.col2 li { width:50.0%; }
+.slickmap.col3 li { width:33.3%; }
+.slickmap.col4 li { width:25.0%; }
+.slickmap.col5 li { width:20.0%; }
+.slickmap.col6 li { width:16.6%; }
+.slickmap.col7 li { width:14.2%; }
+.slickmap.col8 li { width:12.5%; }
+.slickmap.col9 li { width:11.1%; }
+.slickmap.col10 li { width:10.0%; }
 
 /* ------------------------------------------------------------
 	General Styles
@@ -90,12 +90,12 @@ ol, ul {
 
 /* --------	Top Level --------- */
 
-#primaryNav {
+.slickmap {
 	margin: 0;
 	float: left;
 	width: 100%;
 }
-#primaryNav #home {
+.slickmap .root {
 	display: block;
 	float: none;
 	background: #ffffff url('images/L1-left.png') center bottom no-repeat;
@@ -103,13 +103,13 @@ ol, ul {
 	z-index: 2;
 	padding: 0 0 30px 0;
 }
-#primaryNav li {
+.slickmap li {
 	float: left;
 	background: url('images/L1-center.png') center top no-repeat;
 	padding: 30px 0;
 	margin-top: -30px;
 }
-#primaryNav li a {
+.slickmap li a {
 	margin: 0 20px 0 0;
 	padding: 10px 0;
 	display: block;
@@ -124,11 +124,11 @@ ol, ul {
 	-webkit-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px;
 	-moz-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; /* FF 3.5+ */
 }
-#primaryNav li a:hover {
+.slickmap li a:hover {
 	background-color: #e2f4fd;
 	border-color: #97bdcf;
 }
-#primaryNav li:last-child {
+.slickmap li:last-child {
 	background: url('images/L1-right.png') center top no-repeat;
 }
 a:link:before,
@@ -140,57 +140,57 @@ a:visited:before {
 	margin-bottom: 5px;
 	word-wrap: break-word;
 }
-#primaryNav li a:link:before,
-#primaryNav li a:visited:before {
+.slickmap li a:link:before,
+.slickmap li a:visited:before {
 	color: #78a9c0;
 }
 
 /* --------	Second Level --------- */
 
-#primaryNav li li {
+.slickmap li li {
 	width: 100%;
 	clear: left;
 	margin-top: 0;
 	padding: 10px 0 0 0;
 	background: url('images/vertical-line.png') center bottom repeat-y;
 }
-#primaryNav li li a {
+.slickmap li li a {
 	background-color: #cee3ac;
 	border-color: #b8da83;
 }
-#primaryNav li li a:hover {
+.slickmap li li a:hover {
 	border-color: #94b75f;
 	background-color: #e7f1d7;
 }
-#primaryNav li li:first-child {
+.slickmap li li:first-child {
 	padding-top: 30px;
 }
-#primaryNav li li:last-child {
+.slickmap li li:last-child {
 	background: url('images/vertical-line.png') center bottom repeat-y;
 }
-#primaryNav li li a:link:before,
-#primaryNav li li a:visited:before {
+.slickmap li li a:link:before,
+.slickmap li li a:visited:before {
 	color: #8faf5c;
 }
 
 /* --------	Third Level --------- */
 
-#primaryNav li li ul {
+.slickmap li li ul {
 	margin: 10px 0 0 0;
 	width: 100%;
 	float: right;
 	padding: 9px 0 10px 0;
 	background: #ffffff url('images/L3-ul-top.png') center top no-repeat;
 }
-#primaryNav li li li {
+.slickmap li li li {
 	background: url('images/L3-center.png') left center no-repeat;
 	padding: 5px 0;
 }
-#primaryNav li li li.hasMore {
+.slickmap li li li.hasMore {
 	background: url('images/L3-center-hasMore.png') left top no-repeat;
 	padding: 5px 0;
 }
-#primaryNav li li li a {
+.slickmap li li li a {
 	background-color: #fff7aa;
 	border-color: #e3ca4b;
 	font-size: 12px;
@@ -198,41 +198,41 @@ a:visited:before {
 	width: 80%;
 	float: right;
 }
-#primaryNav li li li a:hover {
+.slickmap li li li a:hover {
 	background-color: #fffce5;
 	border-color: #d1b62c;
 }
-#primaryNav li li li:first-child {
+.slickmap li li li:first-child {
 	padding: 15px 0 5px 0;
 	background: url('images/L3-li-top.png') left center no-repeat;
 }
-#primaryNav li li li:last-child {
+.slickmap li li li:last-child {
 	background: url('images/L3-bottom.png') left center no-repeat;
 }
-#primaryNav li li li a:link:before,
-#primaryNav li li li a:visited:before {
+.slickmap li li li a:link:before,
+.slickmap li li li a:visited:before {
 	color: #ccae14;
 	font-size: 9px;
 }
 
 /* --------	Fourth Level --------- */
 
-#primaryNav li li li ul {
+.slickmap li li li ul {
 	margin: 10px 0 0 0;
 	width: 85%;
 	float: right;
 	padding: 9px 0 10px 0;
 	background: #ffffff url('images/L4-ul-top.png') 70% top no-repeat;
 }
-#primaryNav li li li li {
+.slickmap li li li li {
 	background: url('images/L3-center.png') left center no-repeat;
 	padding: 5px 0;
 }
-#primaryNav li li li li.hasMore {
+.slickmap li li li li.hasMore {
 	background: url('images/L3-center-hasMore.png') left top no-repeat;
 	padding: 5px 0;
 }
-#primaryNav li li li li a {
+.slickmap li li li li a {
 	background-color: #fff7aa;
 	border-color: #e3ca4b;
 	font-size: 12px;
@@ -240,28 +240,28 @@ a:visited:before {
 	width: 80%;
 	float: right;
 }
-#primaryNav li li li li a:hover {
+.slickmap li li li li a:hover {
 	background-color: #fffce5;
 	border-color: #d1b62c;
 }
-#primaryNav li li li li:first-child {
+.slickmap li li li li:first-child {
 	padding: 15px 0 5px 0;
 	background: url('images/L3-li-top.png') left center no-repeat;
 }
-#primaryNav li li li li:last-child {
+.slickmap li li li li:last-child {
 	background: url('images/L3-bottom.png') left center no-repeat;
 }
-#primaryNav li li li li.hasMore:last-child {
+.slickmap li li li li.hasMore:last-child {
 	background: url('images/L3-bottom-with-children.png') left top no-repeat;
 }
-#primaryNav li li li li a:link:before,
-#primaryNav li li li li a:visited:before {
+.slickmap li li li li a:link:before,
+.slickmap li li li li a:visited:before {
 	color: #ccae14;
 	font-size: 9px;
 }
 
 /*  5? */
-#primaryNav li li li li li {
+.slickmap li li li li li {
 	width: 100%;
 	clear: left;
 	margin-top: 0;
@@ -270,86 +270,86 @@ a:visited:before {
 		background: url('images/L3-center.png') left center no-repeat;
 }
 
-#primaryNav li li li li li a {
+.slickmap li li li li li a {
 	background-color: #c9c2d1;
 	border-color: #a19ca8;
 
 }
-#primaryNav li li li li li a:hover {
+.slickmap li li li li li a:hover {
   border-color: #6d6971;
 	background-color: #e7dfef;
 }
-#primaryNav li li li li li:first-child {
+.slickmap li li li li li:first-child {
 	padding-top: 30px;
 }
-#primaryNav li li li li li:last-child {
+.slickmap li li li li li:last-child {
 	background: url('images/L3-bottom.png') left center no-repeat;
 }
 
-#primaryNav li li li li li.hasMore {
+.slickmap li li li li li.hasMore {
 
 
 	background: url('images/L3-center-hasMore.png') left top no-repeat;
 	padding: 5px 0;
 }
 
-#primaryNav li li li li li a:link:before,
-#primaryNav li li li li li a:visited:before {
+.slickmap li li li li li a:link:before,
+.slickmap li li li li li a:visited:before {
 	color: #8faf5c;
 }
 
 
 /* 6? */
-#primaryNav li li li li li ul {
+.slickmap li li li li li ul {
 	background: none;
 	margin-top: 0;
 	padding-top: 0;
 	margin-bottom: 15px;
 }
-#primaryNav li li li li li li {
+.slickmap li li li li li li {
 		width: 100%;
 	clear: left;
 	margin-top: 0;
 	padding: 10px 0 0 0;
 	background: url('images/vertical-line.png') 60% bottom repeat-y;
 }
-#primaryNav li li li li li li a {
+.slickmap li li li li li li a {
 	background-color: #6bb1c9;
 	border-color: #568ea1;
 background-color: #69676d;
 border-color: #545257;
 }
-#primaryNav li li li li li li a:hover {
+.slickmap li li li li li li a:hover {
 	border-color: #385c69;
 	background-color: #7bcbe7;
 	background-color: #949198;
 	border-color: #333235;
 }
-#primaryNav li li li li li li:first-child {
+.slickmap li li li li li li:first-child {
 	background: url('images/vertical-line.png') 60% bottom repeat-y;
 	padding-top: 30px;
 }
-#primaryNav li li li li li li:last-child {
+.slickmap li li li li li li:last-child {
 	background: url('images/vertical-line.png') 60% bottom repeat-y;
 }
-#primaryNav li li li li li li a:link:before,
-#primaryNav li li li li li li a:visited:before {
+.slickmap li li li li li li a:link:before,
+.slickmap li li li li li li a:visited:before {
 	color: #8faf5c;
 }
 /* ------------------------------------------------------------
 	Utility Navigation
 ------------------------------------------------------------ */
 
-#utilityNav {
+.utilityNav {
 	float: right;
 	max-width: 50%;
 	margin-right: 10px;
 }
-#utilityNav li {
+.utilityNav li {
 	float: left;
 	margin-bottom: 10px;
 }
-#utilityNav li a {
+.utilityNav li a {
 	margin: 0 10px 0 0;
 	padding: 5px 10px;
 	display: block;
@@ -364,12 +364,12 @@ border-color: #545257;
 	-webkit-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px;
 	-moz-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; /* FF 3.5+ */
 }
-#utilityNav li a:hover {
+.utilityNav li a:hover {
 	background-color: #fffce5;
 	border-color: #d1b62c;
 }
-#utilityNav li a:link:before,
-#utilityNav li a:visited:before {
+.utilityNav li a:link:before,
+.utilityNav li a:visited:before {
 	color: #ccae14;
 	font-size: 9px;
 	margin-bottom: 3px;
