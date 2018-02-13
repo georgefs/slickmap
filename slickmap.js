@@ -64,7 +64,7 @@ slickmap.parse = function (text, level=1){
 }
 slickmap.render = function (source){
     var level1_col =source['childrens'].length;
-    var html = '<ul class="slickmap" class="col' + level1_col +'">';
+    var html = '<ul class="slickmap col' + level1_col +'">';
     html += slickmap.render_tree(source)
     html += '</ul>';
     return html;
