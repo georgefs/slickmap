@@ -89,6 +89,7 @@ table, .slickmap  caption, .slickmap  tbody, .slickmap  tfoot, .slickmap  thead,
 	position: relative;
 	z-index: 2;
 	padding: 0 0 30px 0;
+	margin-top: 30px;
 }
 .slickmap li {
 	float: left;
@@ -288,7 +289,7 @@ a:visited:before {
 	clear: left;
 	margin-top: 0;
 	padding: 10px 0 0 0;
-	background: url('images/vertical-line.png') 60% bottom repeat-y;
+	background: url('images/vertical-line.png') 50% bottom repeat-y;
 }
 .slickmap li li li li li li a {
 	background-color: #6bb1c9;
@@ -303,11 +304,11 @@ border-color: #545257;
 	border-color: #333235;
 }
 .slickmap li li li li li li:first-child {
-	background: url('images/vertical-line.png') 60% bottom repeat-y;
+	background: url('images/vertical-line.png') 50% bottom repeat-y;
 	padding-top: 30px;
 }
 .slickmap li li li li li li:last-child {
-	background: url('images/vertical-line.png') 60% bottom repeat-y;
+	background: url('images/vertical-line.png') 50% bottom repeat-y;
 }
 .slickmap li li li li li li a:link:before,
 .slickmap li li li li li li a:visited:before {
